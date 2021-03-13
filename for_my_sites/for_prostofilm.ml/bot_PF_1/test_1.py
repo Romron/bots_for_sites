@@ -10,6 +10,10 @@ import functions_BfS
 import ParsProxy.pars_proxy as ParsProxy
 import ParsProxy.run_ThroughProxy as run_Proxy
 
+
+
+
+
 proxyList_file = 'proxylist 05-03-2021 14.04.50 .json'
 URL = 'http://prostofilm.ml/' 
 
