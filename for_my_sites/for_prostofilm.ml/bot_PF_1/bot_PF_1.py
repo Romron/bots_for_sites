@@ -37,10 +37,7 @@ def main_bot_PF_1(URL,browser):
 				print(count_try_clicks_links, '. попытка кликнуть случайную ссылку' )
 				print(e)
 
-
-
-
-		# Собрать все ссілки на страницы фильмов
+		# Собрать все ссылки на страницы фильмов
 		list_elements = browser.find_elements_by_xpath('//html/body/div[1]/div/div/div/article/div/div/div/a/h2')
 		time.sleep(random.uniform(1,30))		# случайное число с плавающей точкой
 
