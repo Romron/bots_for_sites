@@ -14,7 +14,7 @@ import ParsProxy.run_ThroughProxy as r_ThP
 
 
 
-proxyList_file = 'proxylist 13-03-2021 18.27.46 .json'
+proxyList_file = 'proxylist 15-03-2021 13.39.59 .json'
 URL = 'http://prostofilm.ml/' 
 
 path_proxyList_dir = os.path.join( os.path.dirname( __file__ ), 'proxy_lists')
@@ -27,8 +27,9 @@ with open(path_proxyList_file) as file_handle:	# получаю прокси и�
 
 # print("proxyList = ", proxyList)
 
-r_ThP.run_ThroughProxy(proxyList,functions_BfS.bot_PF_1,URL,flag_check_Captcha=True)
+r_ThP.run_ThroughProxy(proxyList,functions_BfS.bot_PF_1,URL,flag_check_Captcha=True,flag_headless=True)
 
 
+перенести всё в main.py
 
 
